@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratnesh Kumar | Computer Application Portfolio</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="script.js"></script>
+</head>
+<body class="bg-slate-300">
+     <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600 flex items-center">
+                <span class="code-font">&lt;</span>Ratnesh Kumar<span class="code-font">/&gt;</span>
+            </a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link active text-gray-800 hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="nav-link text-gray-800 hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="nav-link text-gray-800 hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="nav-link text-gray-800 hover:text-blue-600 transition">Projects</a>
+                <a href="#experience" class="nav-link text-gray-800 hover:text-blue-600 transition">Experience</a>
+                <a href="#contact" class="nav-link text-gray-800 hover:text-blue-600 transition">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg absolute w-full">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+                <a href="#home" class="text-gray-800 hover:text-blue-600 py-2 transition">Home</a>
+                <a href="#about" class="text-gray-800 hover:text-blue-600 py-2 transition">About</a>
+                <a href="#skills" class="text-gray-800 hover:text-blue-600 py-2 transition">Skills</a>
+                <a href="#projects" class="text-gray-800 hover:text-blue-600 py-2 transition">Projects</a>
+                <a href="#experience" class="text-gray-800 hover:text-blue-600 py-2 transition">Experience</a>
+                <a href="#contact" class="text-gray-800 hover:text-blue-600 py-2 transition">Contact</a>
+        </div>
+    </div>
+</nav>
+ <!-- Hero Section -->
+    <section id="home" class="pt-28 pb-20 md:pt-36 md:pb-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Computer Applications Student</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
+                        Hi, I'm <span class="text-blue-600">Ratnesh Kumar</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-6">
+                        Turning ideas into functional applications
+                    </p>
+                    <p class="text-gray-600 mb-8 max-w-lg">
+                        I'm a second year Computer Applications student with a passion for creating 
+                        innovative web app solutions. <!-- My internship experiences have equipped me with 
+                        practical skills in web development, database management, and UI/UX design. -->
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#projects" class="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition shadow-lg">
+                            View My Projects
+                        </a>
+                        <a href="#contact" class="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-blue-600 rounded-full opacity-10 blur-2xl"></div>
+                        <svg class="w-64 h-64 md:w-80 md:h-80 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">About Me</h2>
+                <div class="w-20 h-1 bg-blue-600 rounded"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/5 mb-8 md:mb-0">
+                    <div class="bg-blue-100 p-1 rounded-lg">
+                        <svg class="w-full h-auto text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 15C15.3137 15 18 12.3137 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 12.3137 8.68629 15 12 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.90625 20.2491C3.82834 18.6531 5.1542 17.3278 6.75064 16.4064C8.34708 15.485 10.1579 15 12.0011 15C13.8444 15 15.6552 15.4851 17.2516 16.4065C18.848 17.3279 20.1739 18.6533 21.0959 20.2493" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="md:w-3/5 md:pl-12">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Who I Am</h3>
+                    <p class="text-gray-600 mb-4">
+                        I'm a dedicated Computer Applications student with a focus on creating efficient, 
+                        user-friendly digital solutions. Currently in my second year of studies, I've built 
+                        a strong foundation in programming, database management, and web development.
+                    </p>
+                    <p class="text-gray-600 mb-4 hidden">
+                        My academic journey has been enhanced by hands-on experience through internships 
+                        where I've applied classroom knowledge to real-world projects. I enjoy working in 
+                        collaborative environments and solving complex problems with creative solutions.
+                    </p>
+                    <p class="text-gray-600">
+                        When I'm not coding, you can find me exploring new technologies  <!--, participating in 
+                        hackathons, or contributing to open-source projects-->. I'm constantly looking for ways  
+                        to expand my skills and stay current with industry trends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Skills Section -->
+ 
+    <section id="skills" class="py-16 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">My Skills</h2>
+                <div class="w-20 h-1 bg-blue-600 rounded"></div>
+                <p class="text-gray-600 mt-4 text-center max-w-2xl">
+                    Through my studies  <!--and internships,--> I've developed proficiency in various technologies and tools.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-up">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Programming Languages</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Java</span>
+                                <span class="text-sm font-medium text-gray-600">40%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Python</span>
+                                <span class="text-sm font-medium text-gray-600">45%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 45%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">JavaScript</span>
+                                <span class="text-sm font-medium text-gray-600">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">SQL</span>
+                                <span class="text-sm font-medium text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">C</span>
+                                <span class="text-sm font-medium text-gray-600">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">C++</span>
+                                <span class="text-sm font-medium text-gray-600">40%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Technologies -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-up">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Web Technologies</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">HTML5/CSS3</span>
+                                <span class="text-sm font-medium text-gray-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">React</span>
+                                <span class="text-sm font-medium text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Node.js</span>
+                                <span class="text-sm font-medium text-gray-600">40%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Tailwind CSS</span>
+                                <span class="text-sm font-medium text-gray-600">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">RESTful APIs</span>
+                                <span class="text-sm font-medium text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-up">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Tools & Technologies</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Linux</span>
+                                <span class="text-sm font-medium text-gray-600">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Git/GitHub</span>
+                                <span class="text-sm font-medium text-gray-600">70%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">MongoDB</span>
+                                <span class="text-sm font-medium text-gray-600">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">MySQL</span>
+                                <span class="text-sm font-medium text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div hidden>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Docker</span>
+                                <span class="text-sm font-medium text-gray-600">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-700">Figma</span>
+                                <span class="text-sm font-medium text-gray-600">20%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+  
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">My Projects</h2>
+                <div class="w-20 h-1 bg-blue-600 rounded"></div>
+                <p class="text-gray-600 mt-4 text-center max-w-2xl">
+                    Here are some of the projects I've working on during my <!--internships and --> academic journey.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover-up border border-gray-100" hidden>
+                    <div class="h-48 bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-semibold text-gray-800">E-Commerce Platform</h3>
+                            <span class="text-xs font-medium bg-green-100 text-green-800 py-1 px-2 rounded">Internship</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            A full-featured e-commerce platform with product catalog, shopping cart, 
+                            user authentication, and payment processing integration.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">React</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">MongoDB</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Express</span>
+                        </div>
+                        <button onclick="showProjectDetails('ecommerce')" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover-up border border-gray-100">
+                    <div class="h-48 bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-semibold text-gray-800">Task Management App</h3>
+                            <span class="text-xs font-medium bg-blue-100 text-blue-800 py-1 px-2 rounded">Academic</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            A collaborative task management application with real-time updates, 
+                            task assignment, progress tracking, and deadline notifications.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Vue.js</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Tailwind CSS</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Socket.io</span>
+                        </div>
+                        <button onclick="showProjectDetails('taskappp')" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
+                            <!-- View Details --> Working On
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover-up border border-gray-100" hidden>
+                    <div class="h-48 bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6" hidden>
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-semibold text-gray-800">Fitness Tracking App</h3>
+                            <span class="text-xs font-medium bg-green-100 text-green-800 py-1 px-2 rounded">Internship</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            A mobile application that helps users track workouts, set fitness goals, 
+                            monitor progress, and receive personalized recommendations.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">React Native</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Redux</span>
+                            <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Expo</span>
+                        </div>
+                        <button onclick="showProjectDetails('fitness')" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project Modal -->
+            <div id="project-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
+                <div class="bg-white rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 id="modal-title" class="text-2xl font-bold text-gray-800"></h3>
+                            <button onclick="closeProjectModal()" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="modal-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Experience Section -->
+
+    <section id="experience" class="py-16 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Experience & Education</h2>
+                <div class="w-20 h-1 bg-blue-600 rounded"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <!-- Experience -->
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-8">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800">Work Experience</h3>
+                    
+                    <div class="relative pl-10">
+                        <!-- Experience 1 -->
+                        <div class="timeline-item mb-8" hidden>
+                            <div class="timeline-dot"></div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="text-lg font-medium text-gray-800">Software Development Intern</h4>
+                                    <span class="text-sm text-gray-500">Jun 2023 - Aug 2023</span>
+                                </div>
+                                <h5 class="text-blue-600 mb-3">Digital Innovations Inc.</h5>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>Developed an e-commerce platform using MERN stack</li>
+                                    <li>Implemented secure payment processing integration</li>
+                                    <li>Created responsive UI components with React and Bootstrap</li>
+                                    <li>Participated in Agile development processes</li>
+                                    <li>Collaborated with UX designers to implement user-friendly interfaces</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Experience 2 -->
+                        <div class="timeline-item" hidden>
+                            <div class="timeline-dot"></div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="text-lg font-medium text-gray-800">Mobile App Development Intern</h4>
+                                    <span class="text-sm text-gray-500">Jan 2023 - Apr 2023</span>
+                                </div>
+                                <h5 class="text-blue-600 mb-3">FitTech Solutions</h5>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>Assisted in developing a fitness tracking mobile application</li>
+                                    <li>Built UI components using React Native and Expo</li>
+                                    <li>Implemented user authentication and data synchronization</li>
+                                    <li>Conducted user testing and incorporated feedback</li>
+                                    <li>Optimized app performance for various mobile devices</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="md:w-1/2 md:pl-8">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800">Education</h3>
+                    
+                    <div class="relative pl-10">
+                        <!-- Education 1 -->
+                        <div class="timeline-item mb-8">
+                            <div class="timeline-dot"></div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="text-lg font-medium text-gray-800">Bachelor of Computer Applications</h4>
+                                    <span class="text-sm text-gray-500">2024 - 2027</span>
+                                </div>
+                                <h5 class="text-blue-600 mb-3">Patliputra University, Patna</h5>
+                                <p class="text-gray-600 mb-2">
+                                    Specialization in Web Development and Linux Admin
+                                </p>
+                                <p class="text-gray-600">
+                                    <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Database Management Systems, 
+                                    Web Development, Linux Admin
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Education 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="text-lg font-medium text-gray-800">High School Diploma</h4>
+                                    <span class="text-sm text-gray-500">2021 - 2023</span>
+                                </div>
+                                <h5 class="text-blue-600 mb-3">Purvottar Railway College, Sonpur</h5>
+                                <p class="text-gray-600">
+                                    Science and Mathematics <!--focus with Computer Science electives -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Get In Touch</h2>
+                <div class="w-20 h-1 bg-blue-600 rounded"></div>
+                <p class="text-gray-600 mt-4 text-center max-w-2xl">
+                    Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition shadow-lg w-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-8">
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Contact Information</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                    <svg class="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-800">Email</h4>
+                                    <p class="text-blue-600">rk02ratnesh@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                    <svg class="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-800">Phone</h4>
+                                    <p class="text-blue-600">9835788372</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                    <svg class="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-800">Location</h4>
+                                    <p class="text-blue-600">Sonpur, Bihar</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <h3 class="text-lg font-semibold mb-3 text-gray-800">Connect With Me</h3>
+                            <div class="flex space-x-4">
+                                <a hidden href="#" class="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-200 transition">
+                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/code-ratnesh-kumar-/" class="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-200 transition">
+                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/ratneshraj02" class="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-200 transition">
+                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                                <a hidden href="#" class="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-200 transition">
+                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <a href="#" class="text-xl font-bold flex items-center">
+                        <span class="code-font">&lt;</span>Ratnesh Kumar<span class="code-font">/&gt;</span>
+                    </a>
+                    <p class="mt-2 text-sm opacity-80">Computer Applications Student & Developer</p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0">
+                    <a href="#home" class="hover:text-blue-200 transition">Home</a>
+                    <a href="#about" class="hover:text-blue-200 transition">About</a>
+                    <a href="#skills" class="hover:text-blue-200 transition">Skills</a>
+                    <a href="#projects" class="hover:text-blue-200 transition">Projects</a>
+                    <a href="#experience" class="hover:text-blue-200 transition">Experience</a>
+                    <a href="#contact" class="hover:text-blue-200 transition">Contact</a>
+                </div>
+            </div>
+            
+            <div class="border-t border-white border-opacity-20 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm opacity-80">© 2023 Ratnesh Kumar All rights reserved.</p>
+                <p class="text-sm opacity-80 mt-2 md:mt-0">Designed & Built with ❤️</p>
+            </div>
+        </div>
+    </footer>
+ <!-- Back to Top Button -->
+<button id="back-to-top" class="fixed bottom-6 right-6 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+</button>
+
+
+
+    
+</body>
+</html>
